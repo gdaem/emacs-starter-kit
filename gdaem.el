@@ -1,0 +1,8 @@
+(add-to-list 'load-path (concat dotfiles-dir "/vendor"))
+(add-to-list 'load-path (concat dotfiles-dir "/vendor/color-theme"))
+(require 'color-theme)
+(color-theme-initialize)
+(require 'color-theme-hober2)
+(color-theme-hober2)
+(prefer-coding-system 'utf-8)
+(setq visible-bell nil)
